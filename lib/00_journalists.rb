@@ -26,13 +26,15 @@ journalists_caps = journalists_first_letter.scan /\p{Upper}/  #prendre seulement
 puts "Il y a #{journalists_caps.count} handles qui commence par une majuscule."  #Seulement les premières lettre en majuscul
 
 
-puts "Voici la liste dans l'ordre alphabétique :\n   #{journalists.sort}"
+#puts "Voici la liste dans l'ordre alphabétique :\n   #{journalists.sort}"
 
 
-puts "Handle du plus petit au plus grand : \n #{short_handle.to_s}"
+#puts "Handle du plus petit au plus grand : \n #{short_handle.to_s}"
 
 
 puts " Le handle @epenser est à la position #{handles.index("@epenser")}"
+
+
 
 
 #puts  journalists.map! {|caps| caps.scan(/[A-Z]/).count}
